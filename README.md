@@ -10,7 +10,7 @@ The goal of this project is to develop a small, 2-3 screen iOS app that consumes
 
 1. Familiarize yourself with this HTTP endpoint which returns the most recent stories on www.barstoolsports.com: `https://union.barstoolsports.com/v2/stories/latest?type=standard_post&page=1&limit25`
 
-2. Consume this endpoint via Alamofire (already included in the project as a CocoaPod) and display a 2 column grid where each tile has the main thumbnail and title of the story, the authors name, and the stories `brand_name` is it has one.
+2. Consume this endpoint via Alamofire (already included in the project as a CocoaPod) and display a 2 column grid where each tile has the main thumbnail and title of the story, the authors name, and the stories `brand_name` if it has one.
 
 3. When tapping a tile, push a detail screen which consumes the HTTP endpoint `https://union.barstoolsports.com/v2/stories/{story_id}` and displays the story title, author, author image url, and story HTML (accessed from `story.post_type_meta.standard_post.content`)
 
