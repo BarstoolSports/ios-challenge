@@ -22,11 +22,11 @@ Although these additions are not necessary, they may help showcase your experien
 
 2. Add a search bar to the main feed. The search can be done by filtering stories that are in memory or you can consume this HTTP endpoint to search across all Barstool content: `https://union.barstoolsports.com/v2/stories/search?query=patriots&page=1&limit=10`
 
-3. Add 3-D touch support to the tiles so a user can "peek" at the underlying content before navigating to the screen.
+3. Add 3-D touch support to the tiles so a user can "peek" at the underlying content before navigating to the detail screen.
 
-4. Add a persistence layer to the content is cached and displays immediately upon quitting and reopening the app.
+4. Add a persistence layer so the content is cached and displays immediately upon quitting and reopening the app.
 
-5. Add a pull-to-refresh control to the main feed and/or detail screen.
+5. Add a pull-to-refresh control to the main feed and/or detail screen. The refresh action should trigger a request to the coorsponding HTTP endpoint and then reload the screen.
 
 ## Project Setup
 
