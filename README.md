@@ -6,7 +6,7 @@ To better assess a candidate's iOS development skills, we would like to provide 
 
 The goal of this project is to develop a small, 2-3 screen iOS app that consumes content from an HTTP endpoint, displays it in a grid, and allows tapping any content in the grid and viewing it on a detail screen.
 
-> The project must be completed using **Swift 4.2**
+> The project must be completed using **Swift 5**
 
 1. Familiarize yourself with this HTTP endpoint which returns the most recent stories on www.barstoolsports.com: `https://union.barstoolsports.com/v2/stories/latest?type=standard_post&page=1&limit25`
 
