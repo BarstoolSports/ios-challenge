@@ -44,3 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+func unimplemented() -> Never {
+    fatalError()
+}
+

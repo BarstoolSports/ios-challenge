@@ -5,8 +5,8 @@ inhibit_all_warnings!
 project 'Barstool Challenge.xcodeproj'
 
 target 'Barstool Challenge' do
-    platform :ios, '12.0'
+    platform :ios, '13.2'
     use_frameworks!
 
-    pod 'Alamofire', '~> 4.8'
+    pod 'Alamofire', '~> 4.9'
 end

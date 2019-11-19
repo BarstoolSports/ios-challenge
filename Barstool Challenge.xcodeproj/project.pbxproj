@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29302070238392CE00170E7D /* ImageResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2930206F238392CE00170E7D /* ImageResize.swift */; };
+		293020732383C81A00170E7D /* StoryBoardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293020722383C81A00170E7D /* StoryBoardFactory.swift */; };
+		293582F5237F999400877E73 /* StoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293582F4237F999400877E73 /* StoryCell.swift */; };
+		29391A012381DA870043BDA4 /* StoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29391A002381DA870043BDA4 /* StoryDetailViewController.swift */; };
+		29391A03238368ED0043BDA4 /* InfinityScrollModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29391A02238368ED0043BDA4 /* InfinityScrollModelView.swift */; };
+		29A997CA238066A1007A2E19 /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A997C9238066A1007A2E19 /* RequestHandler.swift */; };
+		29A997CD23806C66007A2E19 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A997CC23806C66007A2E19 /* Story.swift */; };
+		29A997D023807662007A2E19 /* StoryModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A997CF23807662007A2E19 /* StoryModelView.swift */; };
 		38148AD821F77D3C00E13073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38148AD721F77D3C00E13073 /* AppDelegate.swift */; };
 		38148ADA21F77D3C00E13073 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38148AD921F77D3C00E13073 /* ViewController.swift */; };
 		38148ADD21F77D3C00E13073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38148ADB21F77D3C00E13073 /* Main.storyboard */; };
@@ -17,6 +25,14 @@
 
 /* Begin PBXFileReference section */
 		23460A2500ED705763D768B5 /* Pods_Barstool_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Barstool_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2930206F238392CE00170E7D /* ImageResize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResize.swift; sourceTree = "<group>"; };
+		293020722383C81A00170E7D /* StoryBoardFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoardFactory.swift; sourceTree = "<group>"; };
+		293582F4237F999400877E73 /* StoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCell.swift; sourceTree = "<group>"; };
+		29391A002381DA870043BDA4 /* StoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailViewController.swift; sourceTree = "<group>"; };
+		29391A02238368ED0043BDA4 /* InfinityScrollModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinityScrollModelView.swift; sourceTree = "<group>"; };
+		29A997C9238066A1007A2E19 /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		29A997CC23806C66007A2E19 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		29A997CF23807662007A2E19 /* StoryModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModelView.swift; sourceTree = "<group>"; };
 		38148AD421F77D3C00E13073 /* Barstool Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barstool Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38148AD721F77D3C00E13073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38148AD921F77D3C00E13073 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +56,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		293020712383C75C00170E7D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2930206F238392CE00170E7D /* ImageResize.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		29A997C82380664F007A2E19 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				29A997C9238066A1007A2E19 /* RequestHandler.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		29A997CB23806C55007A2E19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29A997CC23806C66007A2E19 /* Story.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29A997CE2380764E007A2E19 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				29A997CF23807662007A2E19 /* StoryModelView.swift */,
+				29391A02238368ED0043BDA4 /* InfinityScrollModelView.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
 		38148ACB21F77D3C00E13073 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +110,10 @@
 		38148AD621F77D3C00E13073 /* Barstool Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				293020712383C75C00170E7D /* Extension */,
+				29A997CE2380764E007A2E19 /* ModelView */,
+				29A997CB23806C55007A2E19 /* Model */,
+				29A997C82380664F007A2E19 /* Network */,
 				38148AEA21F77E3200E13073 /* Media */,
 				38148AE921F77E2800E13073 /* Source */,
 				38148AEB21F77E4D00E13073 /* Storyboards */,
@@ -72,8 +125,11 @@
 		38148AE921F77E2800E13073 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				293020722383C81A00170E7D /* StoryBoardFactory.swift */,
 				38148AD721F77D3C00E13073 /* AppDelegate.swift */,
 				38148AD921F77D3C00E13073 /* ViewController.swift */,
+				293582F4237F999400877E73 /* StoryCell.swift */,
+				29391A002381DA870043BDA4 /* StoryDetailViewController.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -131,7 +187,7 @@
 				38148AD021F77D3C00E13073 /* Sources */,
 				38148AD121F77D3C00E13073 /* Frameworks */,
 				38148AD221F77D3C00E13073 /* Resources */,
-				F2CFB564A766EDC8547ACF69 /* [CP] Embed Pods Frameworks */,
+				9997432F6F30733E987B012E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +210,7 @@
 				TargetAttributes = {
 					38148AD321F77D3C00E13073 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1120;
 					};
 				};
 			};
@@ -189,6 +246,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		9997432F6F30733E987B012E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Barstool Challenge/Pods-Barstool Challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Barstool Challenge/Pods-Barstool Challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Barstool Challenge/Pods-Barstool Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9F845DD60A4F4DABD5483536 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,28 +285,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F2CFB564A766EDC8547ACF69 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Barstool Challenge/Pods-Barstool Challenge-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Barstool Challenge/Pods-Barstool Challenge-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -241,7 +293,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				38148ADA21F77D3C00E13073 /* ViewController.swift in Sources */,
+				29A997CA238066A1007A2E19 /* RequestHandler.swift in Sources */,
+				29391A012381DA870043BDA4 /* StoryDetailViewController.swift in Sources */,
+				29302070238392CE00170E7D /* ImageResize.swift in Sources */,
+				29A997D023807662007A2E19 /* StoryModelView.swift in Sources */,
+				293020732383C81A00170E7D /* StoryBoardFactory.swift in Sources */,
 				38148AD821F77D3C00E13073 /* AppDelegate.swift in Sources */,
+				29391A03238368ED0043BDA4 /* InfinityScrollModelView.swift in Sources */,
+				293582F5237F999400877E73 /* StoryCell.swift in Sources */,
+				29A997CD23806C66007A2E19 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -373,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -389,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26X9HV724Z;
 				INFOPLIST_FILE = "Barstool Challenge/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -396,7 +457,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.barstoolsports.Barstool-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -407,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26X9HV724Z;
 				INFOPLIST_FILE = "Barstool Challenge/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -414,7 +476,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.barstoolsports.Barstool-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
