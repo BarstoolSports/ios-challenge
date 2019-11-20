@@ -81,11 +81,11 @@ class StoryCell : UICollectionViewCell {
     
     override func prepareForReuse() {
         super.prepareForReuse()
-       // mainImageView.image = nil
+        mainImageView.image = nil
     }
 
     override func systemLayoutSizeFitting(_ targetSize: CGSize, withHorizontalFittingPriority horizontalFittingPriority: UILayoutPriority, verticalFittingPriority: UILayoutPriority) -> CGSize {
         width.constant = bounds.size.width
-        return contentView.systemLayoutSizeFitting(CGSize(width: targetSize.width, height: 1))
+        return contentView.systemLayoutSizeFitting(CGSize(width: targetSize.width, height: 300))
     }
 }
