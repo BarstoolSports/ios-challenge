@@ -41,3 +41,4 @@ struct Author : Codable {
     let name : String
     let author_url : String
 }
+

@@ -61,19 +61,22 @@ final class InfinityScrollModelView {
         }
         
         isFetchInProgress = true
-        requestHandler.getStories(page: 1,limit: totalCount) { (result) in
+        requestHandler.getStories(page: 1,limit: totalCount) { [weak self] (result) in
+            guard let wSelf = self else {
+                          return
+                      }
             switch result {
                     case .failure(let error):
                       DispatchQueue.main.async {
-                        self.isFetchInProgress = false
-                        self.delegate?.onFetchFailed(with: error.localizedDescription)
+                        wSelf.isFetchInProgress = false
+                        wSelf.delegate?.onFetchFailed(with: error.localizedDescription)
                       }
                     case .success(let response):
                       DispatchQueue.main.async {
-                        self.isFetchInProgress = false
+                        wSelf.isFetchInProgress = false
                         let responseModelViews = response.map{StoryModelView(story: $0)}
-                        self.modelViews = responseModelViews
-                        self.delegate?.onFetchCompleted(with: .none)
+                        wSelf.modelViews = responseModelViews
+                        wSelf.delegate?.onFetchCompleted(with: .none)
                         
                     }
             }
@@ -86,25 +89,28 @@ final class InfinityScrollModelView {
         }
         
         isFetchInProgress = true
-        requestHandler.getStories(page: currentPage) { (result) in
+        requestHandler.getStories(page: currentPage) { [weak self] (result) in
+            guard let wSelf = self else {
+                return
+            }
               switch result {
                     case .failure(let error):
                       DispatchQueue.main.async {
-                        self.isFetchInProgress = false
-                        self.delegate?.onFetchFailed(with: error.localizedDescription)
+                        wSelf.isFetchInProgress = false
+                        wSelf.delegate?.onFetchFailed(with: error.localizedDescription)
                       }
                     case .success(let response):
                       DispatchQueue.main.async {
-                        self.currentPage += 1
-                        self.total += 25
-                        self.isFetchInProgress = false
+                        wSelf.currentPage += 1
+                        wSelf.total += 25
+                        wSelf.isFetchInProgress = false
                         let responseModelViews = response.map{StoryModelView(story: $0)}
-                        self.modelViews.append(contentsOf:responseModelViews)
-                        if self.currentPage > 1 {
-                            let indexPathsToReload = self.calculateIndexPathsToReload(from:responseModelViews)
-                                   self.delegate?.onFetchCompleted(with: indexPathsToReload)
+                        wSelf.modelViews.append(contentsOf:responseModelViews)
+                        if wSelf.currentPage > 1 {
+                            let indexPathsToReload = wSelf.calculateIndexPathsToReload(from:responseModelViews)
+                                   wSelf.delegate?.onFetchCompleted(with: indexPathsToReload)
                         } else {
-                            self.delegate?.onFetchCompleted(with: .none)
+                            wSelf.delegate?.onFetchCompleted(with: .none)
                         }
                     }
             }
