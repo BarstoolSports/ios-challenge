@@ -3,205 +3,181 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38148AD821F77D3C00E13073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38148AD721F77D3C00E13073 /* AppDelegate.swift */; };
-		38148ADA21F77D3C00E13073 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38148AD921F77D3C00E13073 /* ViewController.swift */; };
-		38148ADD21F77D3C00E13073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38148ADB21F77D3C00E13073 /* Main.storyboard */; };
-		38148ADF21F77D3D00E13073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38148ADE21F77D3D00E13073 /* Assets.xcassets */; };
-		38148AE221F77D3D00E13073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38148AE021F77D3D00E13073 /* LaunchScreen.storyboard */; };
+		6C301C14297F51BB00915A56 /* Barstool_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C301C13297F51BB00915A56 /* Barstool_ChallengeApp.swift */; };
+		6C301C16297F51BB00915A56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C301C15297F51BB00915A56 /* ContentView.swift */; };
+		6C301C18297F51BC00915A56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C301C17297F51BC00915A56 /* Assets.xcassets */; };
+		6C301C1B297F51BC00915A56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C301C1A297F51BC00915A56 /* Preview Assets.xcassets */; };
+		6C301C23297F520300915A56 /* Get in Frameworks */ = {isa = PBXBuildFile; productRef = 6C301C22297F520300915A56 /* Get */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		38148AD421F77D3C00E13073 /* Barstool Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barstool Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		38148AD721F77D3C00E13073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38148AD921F77D3C00E13073 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		38148ADC21F77D3C00E13073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		38148ADE21F77D3D00E13073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		38148AE121F77D3D00E13073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		38148AE321F77D3D00E13073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C301C10297F51BB00915A56 /* Barstool Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barstool Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C301C13297F51BB00915A56 /* Barstool_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barstool_ChallengeApp.swift; sourceTree = "<group>"; };
+		6C301C15297F51BB00915A56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C301C17297F51BC00915A56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C301C1A297F51BC00915A56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C301C26297F52BF00915A56 /* Barstool-Challenge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Barstool-Challenge-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		38148AD121F77D3C00E13073 /* Frameworks */ = {
+		6C301C0D297F51BB00915A56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C301C23297F520300915A56 /* Get in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		38148ACB21F77D3C00E13073 = {
+		6C301C07297F51BB00915A56 = {
 			isa = PBXGroup;
 			children = (
-				38148AD621F77D3C00E13073 /* Barstool Challenge */,
-				38148AD521F77D3C00E13073 /* Products */,
+				6C301C12297F51BB00915A56 /* Barstool Challenge */,
+				6C301C11297F51BB00915A56 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		38148AD521F77D3C00E13073 /* Products */ = {
+		6C301C11297F51BB00915A56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				38148AD421F77D3C00E13073 /* Barstool Challenge.app */,
+				6C301C10297F51BB00915A56 /* Barstool Challenge.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		38148AD621F77D3C00E13073 /* Barstool Challenge */ = {
+		6C301C12297F51BB00915A56 /* Barstool Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				38148AEA21F77E3200E13073 /* Media */,
-				38148AE921F77E2800E13073 /* Source */,
-				38148AEB21F77E4D00E13073 /* Storyboards */,
-				38148AEC21F77E6800E13073 /* Supporting Files */,
+				6C301C26297F52BF00915A56 /* Barstool-Challenge-Info.plist */,
+				6C301C25297F521B00915A56 /* Source */,
+				6C301C24297F521400915A56 /* Media */,
+				6C301C19297F51BC00915A56 /* Preview Content */,
 			);
 			path = "Barstool Challenge";
 			sourceTree = "<group>";
 		};
-		38148AE921F77E2800E13073 /* Source */ = {
+		6C301C19297F51BC00915A56 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				38148AD721F77D3C00E13073 /* AppDelegate.swift */,
-				38148AD921F77D3C00E13073 /* ViewController.swift */,
+				6C301C1A297F51BC00915A56 /* Preview Assets.xcassets */,
 			);
-			path = Source;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		38148AEA21F77E3200E13073 /* Media */ = {
+		6C301C24297F521400915A56 /* Media */ = {
 			isa = PBXGroup;
 			children = (
-				38148ADE21F77D3D00E13073 /* Assets.xcassets */,
+				6C301C17297F51BC00915A56 /* Assets.xcassets */,
 			);
 			path = Media;
 			sourceTree = "<group>";
 		};
-		38148AEB21F77E4D00E13073 /* Storyboards */ = {
+		6C301C25297F521B00915A56 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				38148AE021F77D3D00E13073 /* LaunchScreen.storyboard */,
-				38148ADB21F77D3C00E13073 /* Main.storyboard */,
+				6C301C13297F51BB00915A56 /* Barstool_ChallengeApp.swift */,
+				6C301C15297F51BB00915A56 /* ContentView.swift */,
 			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		38148AEC21F77E6800E13073 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				38148AE321F77D3D00E13073 /* Info.plist */,
-			);
-			path = "Supporting Files";
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		38148AD321F77D3C00E13073 /* Barstool Challenge */ = {
+		6C301C0F297F51BB00915A56 /* Barstool Challenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38148AE621F77D3D00E13073 /* Build configuration list for PBXNativeTarget "Barstool Challenge" */;
+			buildConfigurationList = 6C301C1E297F51BC00915A56 /* Build configuration list for PBXNativeTarget "Barstool Challenge" */;
 			buildPhases = (
-				38148AD021F77D3C00E13073 /* Sources */,
-				38148AD121F77D3C00E13073 /* Frameworks */,
-				38148AD221F77D3C00E13073 /* Resources */,
+				6C301C0C297F51BB00915A56 /* Sources */,
+				6C301C0D297F51BB00915A56 /* Frameworks */,
+				6C301C0E297F51BB00915A56 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Barstool Challenge";
+			packageProductDependencies = (
+				6C301C22297F520300915A56 /* Get */,
+			);
 			productName = "Barstool Challenge";
-			productReference = 38148AD421F77D3C00E13073 /* Barstool Challenge.app */;
+			productReference = 6C301C10297F51BB00915A56 /* Barstool Challenge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		38148ACC21F77D3C00E13073 /* Project object */ = {
+		6C301C08297F51BB00915A56 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = "Barstool Sports";
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					38148AD321F77D3C00E13073 = {
-						CreatedOnToolsVersion = 10.1;
+					6C301C0F297F51BB00915A56 = {
+						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 38148ACF21F77D3C00E13073 /* Build configuration list for PBXProject "Barstool Challenge" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 6C301C0B297F51BB00915A56 /* Build configuration list for PBXProject "Barstool Challenge" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 38148ACB21F77D3C00E13073;
-			productRefGroup = 38148AD521F77D3C00E13073 /* Products */;
+			mainGroup = 6C301C07297F51BB00915A56;
+			packageReferences = (
+				6C301C21297F520300915A56 /* XCRemoteSwiftPackageReference "get" */,
+			);
+			productRefGroup = 6C301C11297F51BB00915A56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				38148AD321F77D3C00E13073 /* Barstool Challenge */,
+				6C301C0F297F51BB00915A56 /* Barstool Challenge */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		38148AD221F77D3C00E13073 /* Resources */ = {
+		6C301C0E297F51BB00915A56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38148AE221F77D3D00E13073 /* LaunchScreen.storyboard in Resources */,
-				38148ADF21F77D3D00E13073 /* Assets.xcassets in Resources */,
-				38148ADD21F77D3C00E13073 /* Main.storyboard in Resources */,
+				6C301C1B297F51BC00915A56 /* Preview Assets.xcassets in Resources */,
+				6C301C18297F51BC00915A56 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		38148AD021F77D3C00E13073 /* Sources */ = {
+		6C301C0C297F51BB00915A56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38148ADA21F77D3C00E13073 /* ViewController.swift in Sources */,
-				38148AD821F77D3C00E13073 /* AppDelegate.swift in Sources */,
+				6C301C16297F51BB00915A56 /* ContentView.swift in Sources */,
+				6C301C14297F51BB00915A56 /* Barstool_ChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		38148ADB21F77D3C00E13073 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38148ADC21F77D3C00E13073 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		38148AE021F77D3D00E13073 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38148AE121F77D3D00E13073 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		38148AE421F77D3D00E13073 /* Debug */ = {
+		6C301C1C297F51BC00915A56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -220,13 +196,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -245,7 +221,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -255,14 +231,13 @@
 			};
 			name = Debug;
 		};
-		38148AE521F77D3D00E13073 /* Release */ = {
+		6C301C1D297F51BC00915A56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -281,13 +256,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -300,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -310,36 +285,58 @@
 			};
 			name = Release;
 		};
-		38148AE721F77D3D00E13073 /* Debug */ = {
+		6C301C1F297F51BC00915A56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Barstool Challenge/Supporting Files/Info.plist";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Barstool Challenge/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Barstool-Challenge-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.barstoolsports.Barstool-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		38148AE821F77D3D00E13073 /* Release */ = {
+		6C301C20297F51BC00915A56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Barstool Challenge/Supporting Files/Info.plist";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Barstool Challenge/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Barstool-Challenge-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.barstoolsports.Barstool-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -347,25 +344,44 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		38148ACF21F77D3C00E13073 /* Build configuration list for PBXProject "Barstool Challenge" */ = {
+		6C301C0B297F51BB00915A56 /* Build configuration list for PBXProject "Barstool Challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38148AE421F77D3D00E13073 /* Debug */,
-				38148AE521F77D3D00E13073 /* Release */,
+				6C301C1C297F51BC00915A56 /* Debug */,
+				6C301C1D297F51BC00915A56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38148AE621F77D3D00E13073 /* Build configuration list for PBXNativeTarget "Barstool Challenge" */ = {
+		6C301C1E297F51BC00915A56 /* Build configuration list for PBXNativeTarget "Barstool Challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38148AE721F77D3D00E13073 /* Debug */,
-				38148AE821F77D3D00E13073 /* Release */,
+				6C301C1F297F51BC00915A56 /* Debug */,
+				6C301C20297F51BC00915A56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6C301C21297F520300915A56 /* XCRemoteSwiftPackageReference "get" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/get";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6C301C22297F520300915A56 /* Get */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C301C21297F520300915A56 /* XCRemoteSwiftPackageReference "get" */;
+			productName = Get;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 38148ACC21F77D3C00E13073 /* Project object */;
+	rootObject = 6C301C08297F51BB00915A56 /* Project object */;
 }

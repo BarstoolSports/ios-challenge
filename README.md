@@ -6,11 +6,11 @@ To better assess a candidate's iOS development skills, we would like to provide 
 
 The goal of this project is to develop a small, 2-3 screen iOS app that consumes content from an HTTP endpoint, displays it in a grid, and allows tapping any content in the grid and viewing it on a detail screen.
 
-> The project must be completed using **Swift 5**
+> The project must be completed using **Swift 5.7**
 
 1. Familiarize yourself with this HTTP endpoint which returns the most recent stories on www.barstoolsports.com: `https://union.barstoolsports.com/v2/stories/latest?type=standard_post&page=1&limit25`
 
-2. Consume this endpoint via Alamofire (already included in the project as a CocoaPod) and display a 2 column grid where each tile has the main thumbnail and title of the story, the authors name, and the stories `brand_name` if it has one.
+2. Consume this endpoint via `Get` (already included in the project as a Swift Package) and display a 2 column grid where each tile has the main thumbnail and title of the story, the authors name, and the stories `brand_name` if it has one.
 
 3. When tapping a tile, push a detail screen which consumes the HTTP endpoint `https://union.barstoolsports.com/v2/stories/{story_id}` and displays the story title, author, author image url, and story HTML (accessed from `story.post_type_meta.standard_post.content`)
 
@@ -26,14 +26,12 @@ Although these additions are not necessary, they may help showcase your experien
 
 4. Add a persistence layer so the content is cached and displays immediately upon quitting and reopening the app.
 
-5. Add a pull-to-refresh control to the main feed and/or detail screen. The refresh action should trigger a request to the coorsponding HTTP endpoint and then reload the screen.
+5. Add a pull-to-refresh control to the main feed and/or detail screen. The refresh action should trigger a request to the corresponding HTTP endpoint and then reload the screen.
 
 ## Project Setup
 
-This project was started as a standard single view application in Xcode. We then added a Podfile with a single pod, Alamofire. Feel free to add any other pods that you like to work with, although it certainly isn't necessary.
+This project was started as a standard single view application in Xcode. We then added a single Swift Package via the Xcode Swift Package GUI, Get. Feel free to add any other Swift Packages that you like to work with, although it certainly isn't necessary.
 
-1. Fork or clone this repo
-
-2. Navigate to the project directory in your terminal and run `pod install`. If you dont have CocoaPods you can install at `https://cocoapods.org`
-
-3. Open the `Barstool Challenge.xcworkspace` file
+1. Fork or clone this repo (Specifically the swiftUI branch if you choose to complete this challenge with SwiftUI)
+2. Open the `Barstool Challenge.xcodeprodj` file
+3. Xcode should automatically begin to download the Swift Packages
