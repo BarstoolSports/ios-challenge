@@ -6,7 +6,7 @@ To better assess a candidate's iOS development skills, we would like to provide 
 
 The goal of this project is to develop a small, 2-3 screen iOS app that consumes content from an HTTP endpoint, displays it in a grid, and allows tapping any content in the grid and viewing it on a detail screen.
 
-> The project must be completed using **Swift 5**
+> The project must be completed using **Swift 5.7**
 
 1. Familiarize yourself with this HTTP endpoint which returns the most recent stories on www.barstoolsports.com: `https://union.barstoolsports.com/v2/stories/latest?type=standard_post&page=1&limit25`
 
@@ -32,7 +32,7 @@ Although these additions are not necessary, they may help showcase your experien
 
 This project was started as a standard single view application in Xcode. We then added a Podfile with a single pod, Alamofire. Feel free to add any other pods that you like to work with, although it certainly isn't necessary.
 
-1. Fork or clone this repo
+1. Fork or clone this repo (Specifically the UIKit branch if you choose to complete this challenge with UIKit)
 
 2. Navigate to the project directory in your terminal and run `pod install`. If you dont have CocoaPods you can install at `https://cocoapods.org`
 
