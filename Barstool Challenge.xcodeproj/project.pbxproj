@@ -12,11 +12,9 @@
 		38148ADD21F77D3C00E13073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38148ADB21F77D3C00E13073 /* Main.storyboard */; };
 		38148ADF21F77D3D00E13073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38148ADE21F77D3D00E13073 /* Assets.xcassets */; };
 		38148AE221F77D3D00E13073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38148AE021F77D3D00E13073 /* LaunchScreen.storyboard */; };
-		A12F41E9A5F0A549E21757AD /* Pods_Barstool_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23460A2500ED705763D768B5 /* Pods_Barstool_Challenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		23460A2500ED705763D768B5 /* Pods_Barstool_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Barstool_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38148AD421F77D3C00E13073 /* Barstool Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Barstool Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38148AD721F77D3C00E13073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38148AD921F77D3C00E13073 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,8 +22,6 @@
 		38148ADE21F77D3D00E13073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38148AE121F77D3D00E13073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38148AE321F77D3D00E13073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		884FCA62BD7758418622F58B /* Pods-Barstool Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barstool Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Barstool Challenge/Pods-Barstool Challenge.debug.xcconfig"; sourceTree = "<group>"; };
-		E166D7AE7BE8C09AD62F2FAF /* Pods-Barstool Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barstool Challenge.release.xcconfig"; path = "Target Support Files/Pods-Barstool Challenge/Pods-Barstool Challenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +29,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A12F41E9A5F0A549E21757AD /* Pods_Barstool_Challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +40,6 @@
 			children = (
 				38148AD621F77D3C00E13073 /* Barstool Challenge */,
 				38148AD521F77D3C00E13073 /* Products */,
-				F7558550016EA5252BD5ECC3 /* Pods */,
-				755B071D30DC98AD3BF79BC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,23 +96,6 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		755B071D30DC98AD3BF79BC6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				23460A2500ED705763D768B5 /* Pods_Barstool_Challenge.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F7558550016EA5252BD5ECC3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				884FCA62BD7758418622F58B /* Pods-Barstool Challenge.debug.xcconfig */,
-				E166D7AE7BE8C09AD62F2FAF /* Pods-Barstool Challenge.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -127,11 +103,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38148AE621F77D3D00E13073 /* Build configuration list for PBXNativeTarget "Barstool Challenge" */;
 			buildPhases = (
-				9F845DD60A4F4DABD5483536 /* [CP] Check Pods Manifest.lock */,
 				38148AD021F77D3C00E13073 /* Sources */,
 				38148AD121F77D3C00E13073 /* Frameworks */,
 				38148AD221F77D3C00E13073 /* Resources */,
-				F2CFB564A766EDC8547ACF69 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,53 +161,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		9F845DD60A4F4DABD5483536 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Barstool Challenge-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F2CFB564A766EDC8547ACF69 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Barstool Challenge/Pods-Barstool Challenge-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Barstool Challenge/Pods-Barstool Challenge-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		38148AD021F77D3C00E13073 /* Sources */ = {
@@ -385,7 +312,6 @@
 		};
 		38148AE721F77D3D00E13073 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 884FCA62BD7758418622F58B /* Pods-Barstool Challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -403,7 +329,6 @@
 		};
 		38148AE821F77D3D00E13073 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E166D7AE7BE8C09AD62F2FAF /* Pods-Barstool Challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
